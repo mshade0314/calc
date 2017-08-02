@@ -14,6 +14,7 @@
 		CD80FE611F315873005FF183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD80FE5F1F315873005FF183 /* LaunchScreen.storyboard */; };
 		CD80FE6C1F315873005FF183 /* calcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD80FE6B1F315873005FF183 /* calcTests.swift */; };
 		CD80FE771F315873005FF183 /* calcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD80FE761F315873005FF183 /* calcUITests.swift */; };
+		CD80FE851F316871005FF183 /* CustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD80FE841F316871005FF183 /* CustomClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CD80FE721F315873005FF183 /* calcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD80FE761F315873005FF183 /* calcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calcUITests.swift; sourceTree = "<group>"; };
 		CD80FE781F315873005FF183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD80FE841F316871005FF183 /* CustomClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				CD80FE5D1F315873005FF183 /* Assets.xcassets */,
 				CD80FE5F1F315873005FF183 /* LaunchScreen.storyboard */,
 				CD80FE621F315873005FF183 /* Info.plist */,
+				CD80FE841F316871005FF183 /* CustomClass.swift */,
 			);
 			path = calc;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD80FE851F316871005FF183 /* CustomClass.swift in Sources */,
 				CD80FE591F315873005FF183 /* ViewController.swift in Sources */,
 				CD80FE571F315873005FF183 /* AppDelegate.swift in Sources */,
 			);
